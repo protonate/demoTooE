@@ -4,10 +4,7 @@
     <h2>Hello</h2>
 
     <div>
-      <p>
-        there
-      </p>
-
+      <p>there</p>
     </div>
     <LoginSignup v-if="currentUser === null" />
     <div v-else id="greeting">
